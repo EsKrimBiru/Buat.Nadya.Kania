@@ -1,0 +1,162 @@
+*{
+  user-select: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Anonymous Pro', monospace;
+}
+html{
+  height: 100%;
+}
+.kotakbsr {
+  background-color: #F0F8FF;
+  height: 100% ;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* position: relative; */
+}
+.kotak {
+  background-color: black;
+  height: 350px;
+  width: 500px;
+  /* border: 1px solid aqua; */
+  border-radius: 30px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  color: #F0F8FF;
+  box-shadow: 0px 4px 12px 4px rgba(0,0,0,0.4);
+  /* position: relative; */
+}
+div.satu{
+  /* border: 1px solid aqua; */
+  color: #F0F8FF;
+}
+div.dua{
+  height: 300px;
+  width: 300px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid aqua; */
+  /* position: relative; */
+}
+div.dua img{
+  width: 200px;
+}
+div.tiga{
+  width: 150px;
+  height: 30px;
+}
+div.tiga button{
+  width: 100%;
+  height: 100%;
+  font-size: 12px;
+  letter-spacing: 5px;
+  color: whitesmoke;
+  background: black;
+  transition: 0.5s;
+}
+div.tiga button:hover{
+  color: aqua;
+  background: black;
+  box-shadow: 0px 2px 12px 1px aqua;
+}
+a{
+  position: relative;
+}
+.lanjut{
+  position: fixed;
+  bottom: 20px ;
+  right: 20px;
+  /* border: 1px solid aqua; */
+  width: 70px;
+  height: 70px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: black;
+  letter-spacing: 1px;
+  animation: 0.5s;
+}
+.lanjut:hover{
+  color: aqua;
+  background: black;
+  box-shadow: 0px 2px 12px 1px aqua;
+}
+a{
+  text-decoration: none;
+  color: whitesmoke;
+}
+.popup{
+  width: 400px;
+  height: 20%;
+  background-color: white;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+}
+.popup div{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  height: 20%;
+} 
+.popup div button{
+  width: 45%;
+  height: 100%;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+}
+.popup div button:hover{
+  box-shadow: 0px 2px 2px 1px black;
+}
+.popup1{
+  width: 400px;
+  height: 20%;
+  background-color: white;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+}
+.popup1 button{
+  font-size: 17px;
+  width: 100px;
+  height: 20%;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+} 
+.popup1 button:hover{
+  box-shadow: 0px 2px 2px 1px black;
+}
+.active{
+  visibility: visible;
+  opacity: 1;
+  transition: 0.5s;
+}
